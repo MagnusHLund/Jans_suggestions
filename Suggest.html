@@ -15,10 +15,13 @@
         </div>
         <div class="main">
             <h1>Suggest which games MrWuus should play!</h1>
-            <div class="text-container">
-                <input type="text" placeholder="Game title" class="userInput">
-                <input type="text" placeholder="Your name" class="userInput">
-                <button type="button" placeholder="Submit" class="button">Submit</button>
+            <form class="text-container" id="suggestionForm">
+                <input type="text" id="gameTitle" name="gameTitle" placeholder="Game title" class="userInput" required>
+                <input type="text" id="userName" name="userName" placeholder="Your name" class="userInput" required>
+                <input type="text" id="link" name="link" placeholder="Link (optional)" class="userInput">
+                <button type="submit" placeholder="Submit" class="button">Submit</button>
+            </form>
+            <div class="error" id="error">
             </div>
         </div>
     </div>
@@ -32,6 +35,7 @@
             </ul>
         </div>
     </div>
+    <script src="JavaScript/ConvertLink.js"></script>
 </body>
 
 </html>

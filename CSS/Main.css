@@ -132,3 +132,21 @@ h1 {
 .MrWuusText {
     color: #a2d465;
 }
+
+.errLabel {
+    color: #ff0000; /* Red color for error labels */
+}
+
+.sucLabel {
+    color: #00ff00; /* Green color for success labels */
+}
+
+.error {
+    /* Add your styles for the error container div here */
+    padding: 10px;
+    background-color: #ffcccc; /* Light pink background for error messages */
+    border: 1px solid #ff0000; /* Red border for error messages */
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}

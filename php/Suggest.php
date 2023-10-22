@@ -1,8 +1,8 @@
 <?php
-$servername = "192.168.1.249"; // Replace with your server name
-$username = "test"; // Replace with your username
-$password = "test"; // Replace with your password
-$dbname = "mrwuus_suggestions"; // Replace with your database name
+$servername = "192.168.1.249"; 
+$username = "test"; 
+$password = "test"; 
+$dbname = "mrwuus_suggestions"; 
 
 try {
     // Create a connection

@@ -134,19 +134,15 @@ h1 {
 }
 
 .errLabel {
-    color: #ff0000; /* Red color for error labels */
+    color: #ff0000;
 }
 
 .sucLabel {
-    color: #00ff00; /* Green color for success labels */
+    color: #00ff00; 
 }
 
 .error {
-    /* Add your styles for the error container div here */
-    padding: 10px;
-    background-color: #ffcccc; /* Light pink background for error messages */
-    border: 1px solid #ff0000; /* Red border for error messages */
+    background-color: #576243;
     text-align: center;
-    margin: 10px;
     border-radius: 5px;
 }

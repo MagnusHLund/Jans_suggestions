@@ -1,0 +1,20 @@
+.deleted {
+    background-color: #000;
+    border-color: #dc3545;
+    color: #000;
+    padding: 0.375rem 0.75rem;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.deleted:hover {
+    background-color: #000;
+    border-color: #bd2130;
+    color: #000;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+}
